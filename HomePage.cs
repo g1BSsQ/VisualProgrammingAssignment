@@ -23,7 +23,7 @@ namespace CoffeeHouseABC
         public HomePage()
         {
             InitializeComponent();
-           
+
         }
 
         // 🔹 Khi cần chuyển sang tab "Đơn hàng"
@@ -199,5 +199,9 @@ namespace CoffeeHouseABC
             Application.Exit();  // Đảm bảo thoát hoàn toàn chương trình
         }
 
+        private void guna2HtmlLabel2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
