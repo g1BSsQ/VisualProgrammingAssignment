@@ -101,7 +101,7 @@ namespace CoffeeHouseABC.User_Control
                 if (parent != null)
                 {
                     UC_PurchaseHistory historyUC = null;
-
+                    
                     // Tìm UC_PurchaseHistory trong danh sách control cha
                     foreach (Control ctrl in parent.Controls)
                     {

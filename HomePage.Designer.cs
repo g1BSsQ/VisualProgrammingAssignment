@@ -52,6 +52,7 @@ namespace CoffeeHouseABC
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             guna2Panel2 = new Guna2Panel();
+            tableLayoutPanel1 = new TableLayoutPanel();
             guna2HtmlLabel2 = new Guna2HtmlLabel();
             guna2HtmlLabel1 = new Guna2HtmlLabel();
             guna2Elipse1 = new Guna2Elipse(components);
@@ -66,12 +67,9 @@ namespace CoffeeHouseABC
             btnDangXuat = new Guna2Button();
             btnDanhMuc = new Guna2Button();
             panelContainer = new Guna2Panel();
-            tableLayoutPanel1 = new TableLayoutPanel();
-            tableLayoutPanel2 = new TableLayoutPanel();
             guna2Panel2.SuspendLayout();
             guna2Panel3.SuspendLayout();
             flowLayoutPanel1.SuspendLayout();
-            panelContainer.SuspendLayout();
             SuspendLayout();
             // 
             // guna2Panel2
@@ -88,15 +86,28 @@ namespace CoffeeHouseABC
             guna2Panel2.Size = new Size(1902, 107);
             guna2Panel2.TabIndex = 1;
             // 
+            // tableLayoutPanel1
+            // 
+            tableLayoutPanel1.ColumnCount = 2;
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
+            tableLayoutPanel1.Location = new Point(405, 107);
+            tableLayoutPanel1.Name = "tableLayoutPanel1";
+            tableLayoutPanel1.RowCount = 2;
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
+            tableLayoutPanel1.Size = new Size(1015, 491);
+            tableLayoutPanel1.TabIndex = 0;
+            // 
             // guna2HtmlLabel2
             // 
             guna2HtmlLabel2.AutoSize = false;
             guna2HtmlLabel2.BackColor = Color.Transparent;
             guna2HtmlLabel2.Font = new Font("Segoe UI Semibold", 14F, FontStyle.Bold);
             guna2HtmlLabel2.ForeColor = Color.White;
-            guna2HtmlLabel2.Location = new Point(0, 62);
+            guna2HtmlLabel2.Location = new Point(0, 60);
             guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            guna2HtmlLabel2.Size = new Size(1887, 42);
+            guna2HtmlLabel2.Size = new Size(1887, 47);
             guna2HtmlLabel2.TabIndex = 1;
             guna2HtmlLabel2.Text = "ABC uống là mê";
             guna2HtmlLabel2.TextAlignment = ContentAlignment.MiddleCenter;
@@ -111,10 +122,10 @@ namespace CoffeeHouseABC
             guna2HtmlLabel1.ForeColor = Color.White;
             guna2HtmlLabel1.Location = new Point(0, 0);
             guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            guna2HtmlLabel1.Size = new Size(1902, 79);
+            guna2HtmlLabel1.Size = new Size(1902, 106);
             guna2HtmlLabel1.TabIndex = 0;
             guna2HtmlLabel1.Text = "Chào mừng bạn đến với quán Cafe và đồ uống ABC ";
-            guna2HtmlLabel1.TextAlignment = ContentAlignment.MiddleCenter;
+            guna2HtmlLabel1.TextAlignment = ContentAlignment.TopCenter;
             // 
             // guna2DragControl1
             // 
@@ -159,7 +170,6 @@ namespace CoffeeHouseABC
             btnThucDon.Animated = true;
             btnThucDon.BorderRadius = 30;
             btnThucDon.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            btnThucDon.CustomImages.HoveredImage = Properties.Resources.menuw;
             btnThucDon.CustomImages.Image = Properties.Resources.Menushop;
             btnThucDon.CustomImages.ImageAlign = HorizontalAlignment.Left;
             btnThucDon.CustomImages.ImageSize = new Size(30, 30);
@@ -183,7 +193,7 @@ namespace CoffeeHouseABC
             btnThucDon.TabIndex = 0;
             btnThucDon.Text = "Thực đơn";
             btnThucDon.TextAlign = HorizontalAlignment.Left;
-            btnThucDon.TextOffset = new Point(30, 0);
+            btnThucDon.TextOffset = new Point(45, 0);
             btnThucDon.Click += btnThucDon_Click;
             // 
             // btnDonHang
@@ -214,7 +224,7 @@ namespace CoffeeHouseABC
             btnDonHang.TabIndex = 2;
             btnDonHang.Text = "Đơn hàng";
             btnDonHang.TextAlign = HorizontalAlignment.Left;
-            btnDonHang.TextOffset = new Point(30, 0);
+            btnDonHang.TextOffset = new Point(45, 0);
             btnDonHang.Click += btnDonHang_Click;
             // 
             // btnLichSuMuaHang
@@ -222,7 +232,7 @@ namespace CoffeeHouseABC
             btnLichSuMuaHang.Animated = true;
             btnLichSuMuaHang.BorderRadius = 30;
             btnLichSuMuaHang.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            btnLichSuMuaHang.CustomImages.Image = Properties.Resources.send;
+            btnLichSuMuaHang.CustomImages.Image = Properties.Resources.calendar;
             btnLichSuMuaHang.CustomImages.ImageAlign = HorizontalAlignment.Left;
             btnLichSuMuaHang.CustomImages.ImageSize = new Size(30, 30);
             btnLichSuMuaHang.CustomizableEdges = customizableEdges7;
@@ -244,7 +254,7 @@ namespace CoffeeHouseABC
             btnLichSuMuaHang.TabIndex = 3;
             btnLichSuMuaHang.Text = "Lịch sử mua hàng";
             btnLichSuMuaHang.TextAlign = HorizontalAlignment.Left;
-            btnLichSuMuaHang.TextOffset = new Point(30, 0);
+            btnLichSuMuaHang.TextOffset = new Point(45, 0);
             btnLichSuMuaHang.Click += btnLichSuMuaHang_Click;
             // 
             // btnDanhGia
@@ -252,7 +262,7 @@ namespace CoffeeHouseABC
             btnDanhGia.Animated = true;
             btnDanhGia.BorderRadius = 30;
             btnDanhGia.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            btnDanhGia.CustomImages.Image = Properties.Resources.send;
+            btnDanhGia.CustomImages.Image = Properties.Resources.star;
             btnDanhGia.CustomImages.ImageAlign = HorizontalAlignment.Left;
             btnDanhGia.CustomImages.ImageSize = new Size(30, 30);
             btnDanhGia.CustomizableEdges = customizableEdges9;
@@ -274,7 +284,7 @@ namespace CoffeeHouseABC
             btnDanhGia.TabIndex = 1;
             btnDanhGia.Text = "Đánh giá";
             btnDanhGia.TextAlign = HorizontalAlignment.Left;
-            btnDanhGia.TextOffset = new Point(30, 0);
+            btnDanhGia.TextOffset = new Point(45, 0);
             btnDanhGia.Click += btnDanhGia_Click;
             // 
             // btnThongTinTaiKhoan
@@ -282,9 +292,10 @@ namespace CoffeeHouseABC
             btnThongTinTaiKhoan.Animated = true;
             btnThongTinTaiKhoan.BorderRadius = 30;
             btnThongTinTaiKhoan.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            btnThongTinTaiKhoan.CustomImages.HoveredImage = Properties.Resources.accountw;
+            
             btnThongTinTaiKhoan.CustomImages.Image = Properties.Resources.account;
             btnThongTinTaiKhoan.CustomImages.ImageAlign = HorizontalAlignment.Left;
+            btnThongTinTaiKhoan.CustomImages.ImageSize = new Size(30, 30);
             btnThongTinTaiKhoan.CustomizableEdges = customizableEdges11;
             btnThongTinTaiKhoan.DisabledState.BorderColor = Color.DarkGray;
             btnThongTinTaiKhoan.DisabledState.CustomBorderColor = Color.DarkGray;
@@ -304,7 +315,7 @@ namespace CoffeeHouseABC
             btnThongTinTaiKhoan.TabIndex = 4;
             btnThongTinTaiKhoan.Text = "Thông tin tài khoản";
             btnThongTinTaiKhoan.TextAlign = HorizontalAlignment.Left;
-            btnThongTinTaiKhoan.TextOffset = new Point(30, 0);
+            btnThongTinTaiKhoan.TextOffset = new Point(45, 0);
             btnThongTinTaiKhoan.Click += btnThongTinTaiKhoan_Click;
             // 
             // btnDangXuat
@@ -312,9 +323,10 @@ namespace CoffeeHouseABC
             btnDangXuat.Animated = true;
             btnDangXuat.BorderRadius = 30;
             btnDangXuat.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            btnDangXuat.CustomImages.HoveredImage = Properties.Resources.logoutw;
+            
             btnDangXuat.CustomImages.Image = Properties.Resources.logout;
             btnDangXuat.CustomImages.ImageAlign = HorizontalAlignment.Left;
+            btnDangXuat.CustomImages.ImageSize = new Size(30, 30);
             btnDangXuat.CustomizableEdges = customizableEdges13;
             btnDangXuat.DisabledState.BorderColor = Color.DarkGray;
             btnDangXuat.DisabledState.CustomBorderColor = Color.DarkGray;
@@ -334,7 +346,7 @@ namespace CoffeeHouseABC
             btnDangXuat.TabIndex = 5;
             btnDangXuat.Text = "Đăng xuất";
             btnDangXuat.TextAlign = HorizontalAlignment.Left;
-            btnDangXuat.TextOffset = new Point(30, 0);
+            btnDangXuat.TextOffset = new Point(45, 0);
             btnDangXuat.Click += btnDangXuat_Click_1;
             // 
             // btnDanhMuc
@@ -363,7 +375,6 @@ namespace CoffeeHouseABC
             // 
             // panelContainer
             // 
-            panelContainer.Controls.Add(tableLayoutPanel2);
             panelContainer.CustomizableEdges = customizableEdges19;
             panelContainer.Dock = DockStyle.Fill;
             panelContainer.FillColor = Color.White;
@@ -373,37 +384,6 @@ namespace CoffeeHouseABC
             panelContainer.Size = new Size(1498, 926);
             panelContainer.TabIndex = 3;
             panelContainer.Paint += panelContainer_Paint;
-            // 
-            // tableLayoutPanel1
-            // 
-            tableLayoutPanel1.ColumnCount = 2;
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tableLayoutPanel1.Location = new Point(405, 107);
-            tableLayoutPanel1.Name = "tableLayoutPanel1";
-            tableLayoutPanel1.RowCount = 2;
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel1.Size = new Size(1015, 491);
-            tableLayoutPanel1.TabIndex = 0;
-            // 
-            // tableLayoutPanel2
-            // 
-            tableLayoutPanel2.ColumnCount = 5;
-            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 20F));
-            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 20F));
-            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 20F));
-            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 20F));
-            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 20F));
-            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel2.Dock = DockStyle.Fill;
-            tableLayoutPanel2.Location = new Point(0, 0);
-            tableLayoutPanel2.Name = "tableLayoutPanel2";
-            tableLayoutPanel2.RowCount = 2;
-            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel2.Size = new Size(1498, 926);
-            tableLayoutPanel2.TabIndex = 0;
             // 
             // HomePage
             // 
@@ -422,7 +402,6 @@ namespace CoffeeHouseABC
             guna2Panel2.ResumeLayout(false);
             guna2Panel3.ResumeLayout(false);
             flowLayoutPanel1.ResumeLayout(false);
-            panelContainer.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -443,7 +422,6 @@ namespace CoffeeHouseABC
         private Guna2HtmlLabel guna2HtmlLabel2;
         private FlowLayoutPanel flowLayoutPanel1;
         private TableLayoutPanel tableLayoutPanel1;
-        private TableLayoutPanel tableLayoutPanel2;
     }
 
 }

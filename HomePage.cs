@@ -125,13 +125,13 @@ namespace CoffeeHouseABC
         {
             if (!isCollapsed)
             {
-                guna2Panel3.Width = 60;
+                guna2Panel3.Width = 80;
                 CollapseAllButtons();
                 isCollapsed = true;
             }
             else
             {
-                guna2Panel3.Width = 322;
+                guna2Panel3.Width = 394;
                 ExpandAllButtons();
                 isCollapsed = false;
             }
