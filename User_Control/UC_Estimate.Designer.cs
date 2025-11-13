@@ -129,6 +129,7 @@
             rbThaiDo1.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
             rbThaiDo1.UncheckedState.BorderThickness = 2;
             rbThaiDo1.UncheckedState.FillColor = Color.Transparent;
+            rbThaiDo1.Tag = "ThaiDo";
             // 
             // rbThaiDo2
             // 
@@ -146,6 +147,7 @@
             rbThaiDo2.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
             rbThaiDo2.UncheckedState.BorderThickness = 2;
             rbThaiDo2.UncheckedState.FillColor = Color.Transparent;
+            rbThaiDo2.Tag = "ThaiDo";
             // 
             // rbThaiDo3
             // 
@@ -163,6 +165,7 @@
             rbThaiDo3.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
             rbThaiDo3.UncheckedState.BorderThickness = 2;
             rbThaiDo3.UncheckedState.FillColor = Color.Transparent;
+            rbThaiDo3.Tag = "ThaiDo";
             // 
             // rbThaiDo4
             // 
@@ -180,6 +183,7 @@
             rbThaiDo4.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
             rbThaiDo4.UncheckedState.BorderThickness = 2;
             rbThaiDo4.UncheckedState.FillColor = Color.Transparent;
+            rbThaiDo4.Tag = "ThaiDo";
             // 
             // rbThaiDo5
             // 
@@ -197,6 +201,7 @@
             rbThaiDo5.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
             rbThaiDo5.UncheckedState.BorderThickness = 2;
             rbThaiDo5.UncheckedState.FillColor = Color.Transparent;
+            rbThaiDo5.Tag = "ThaiDo";
             // 
             // lbl1
             // 
@@ -280,6 +285,7 @@
             rbChatLuong1.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
             rbChatLuong1.UncheckedState.BorderThickness = 2;
             rbChatLuong1.UncheckedState.FillColor = Color.Transparent;
+            rbChatLuong1.Tag = "ChatLuong";
             // 
             // rbChatLuong2
             // 
@@ -297,6 +303,7 @@
             rbChatLuong2.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
             rbChatLuong2.UncheckedState.BorderThickness = 2;
             rbChatLuong2.UncheckedState.FillColor = Color.Transparent;
+            rbChatLuong2.Tag = "ChatLuong";
             // 
             // rbChatLuong3
             // 
@@ -314,6 +321,7 @@
             rbChatLuong3.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
             rbChatLuong3.UncheckedState.BorderThickness = 2;
             rbChatLuong3.UncheckedState.FillColor = Color.Transparent;
+            rbChatLuong3.Tag = "ChatLuong";
             // 
             // rbChatLuong4
             // 
@@ -331,6 +339,7 @@
             rbChatLuong4.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
             rbChatLuong4.UncheckedState.BorderThickness = 2;
             rbChatLuong4.UncheckedState.FillColor = Color.Transparent;
+            rbChatLuong4.Tag = "ChatLuong";
             // 
             // rbChatLuong5
             // 
@@ -348,6 +357,7 @@
             rbChatLuong5.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
             rbChatLuong5.UncheckedState.BorderThickness = 2;
             rbChatLuong5.UncheckedState.FillColor = Color.Transparent;
+            rbChatLuong5.Tag = "ChatLuong";
             // 
             // lblCL1
             // 
@@ -431,6 +441,7 @@
             rbKhongGian1.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
             rbKhongGian1.UncheckedState.BorderThickness = 2;
             rbKhongGian1.UncheckedState.FillColor = Color.Transparent;
+            rbKhongGian1.Tag = "KhongGian";
             // 
             // rbKhongGian2
             // 
@@ -448,6 +459,7 @@
             rbKhongGian2.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
             rbKhongGian2.UncheckedState.BorderThickness = 2;
             rbKhongGian2.UncheckedState.FillColor = Color.Transparent;
+            rbKhongGian2.Tag = "KhongGian";
             // 
             // rbKhongGian3
             // 
@@ -465,6 +477,7 @@
             rbKhongGian3.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
             rbKhongGian3.UncheckedState.BorderThickness = 2;
             rbKhongGian3.UncheckedState.FillColor = Color.Transparent;
+            rbKhongGian3.Tag = "KhongGian";
             // 
             // rbKhongGian4
             // 
@@ -482,6 +495,7 @@
             rbKhongGian4.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
             rbKhongGian4.UncheckedState.BorderThickness = 2;
             rbKhongGian4.UncheckedState.FillColor = Color.Transparent;
+            rbKhongGian4.Tag = "KhongGian";
             // 
             // rbKhongGian5
             // 
@@ -499,6 +513,7 @@
             rbKhongGian5.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
             rbKhongGian5.UncheckedState.BorderThickness = 2;
             rbKhongGian5.UncheckedState.FillColor = Color.Transparent;
+            rbKhongGian5.Tag = "KhongGian";
             // 
             // lblKG1
             // 
@@ -582,6 +597,7 @@
             rbDoDaDang1.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
             rbDoDaDang1.UncheckedState.BorderThickness = 2;
             rbDoDaDang1.UncheckedState.FillColor = Color.Transparent;
+            rbDoDaDang1.Tag = "DoDaDang";
             // 
             // rbDoDaDang2
             // 
@@ -599,6 +615,7 @@
             rbDoDaDang2.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
             rbDoDaDang2.UncheckedState.BorderThickness = 2;
             rbDoDaDang2.UncheckedState.FillColor = Color.Transparent;
+            rbDoDaDang2.Tag = "DoDaDang";
             // 
             // rbDoDaDang3
             // 
@@ -616,6 +633,7 @@
             rbDoDaDang3.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
             rbDoDaDang3.UncheckedState.BorderThickness = 2;
             rbDoDaDang3.UncheckedState.FillColor = Color.Transparent;
+            rbDoDaDang3.Tag = "DoDaDang";
             // 
             // rbDoDaDang4
             // 
@@ -633,6 +651,7 @@
             rbDoDaDang4.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
             rbDoDaDang4.UncheckedState.BorderThickness = 2;
             rbDoDaDang4.UncheckedState.FillColor = Color.Transparent;
+            rbDoDaDang4.Tag = "DoDaDang";
             // 
             // rbDoDaDang5
             // 
@@ -650,6 +669,7 @@
             rbDoDaDang5.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
             rbDoDaDang5.UncheckedState.BorderThickness = 2;
             rbDoDaDang5.UncheckedState.FillColor = Color.Transparent;
+            rbDoDaDang5.Tag = "DoDaDang";
             // 
             // lblDD1
             // 
